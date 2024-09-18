@@ -20,15 +20,15 @@ function App() {
         </Nav>
   
         <Routes>
+          {/* biome-ignore lint/style/useSelfClosingElements: <explanation> */}
           <Route path="/" element={<Home />}></Route>
+          {/* biome-ignore lint/style/useSelfClosingElements: <explanation> */}
           <Route path="/medicamentos" element={<Medicamnetos />}></Route>
+          {/* biome-ignore lint/style/useSelfClosingElements: <explanation> */}
           <Route path="/sobre" element={<Sobre />}></Route>
         </Routes>
 
       </BrowserRouter>
-
-      
-      
     </div>   
   );
 }
